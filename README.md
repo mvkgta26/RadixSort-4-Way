@@ -1,12 +1,12 @@
 # RadixSort-4-Way
-## 4-Way Radix-Sort On CUDA Parallel Program
+### 4-Way Radix-Sort On CUDA Parallel Program
 
 
-## CUDA Implementation of 4-Way Radix Sort for integers
+### CUDA Implementation of 4-Way Radix Sort for integers
 
 
-## Core Algorithm: Array arr[] of size n:
-### Repeat for i = 0, 2, 4, ...., 30 :
+### Core Algorithm: Array arr[] of size n:
+#### Repeat for i = 0, 2, 4, ...., 30 :
   1. *Compact* all the elements of arr[] array based on following *predicate*: Check if bit-i and bit-i+1 is 1
   2. Produce a *Blelloch Scan* correspondong to each of the 4 Compact arrays
   3. Use the scan arrays as *Scatter-Addresses* to do the *4 Way Split For Bit-i, i+1*:   
