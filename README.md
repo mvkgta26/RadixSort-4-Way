@@ -11,9 +11,9 @@
   2. Produce a *Blelloch Scan* correspondong to each of the 4 Compact arrays
   3. Use the scan arrays as *Scatter-Addresses* to do the *4 Way Split For Bit-i, i+1*:   
         a. All the elements with bit-i,i+1 == 00 are grouped in the beginning. Original order between them is retained  
-        b. All elements with bit-i, i+1 == 01 are grouped next. Original order between them is retained
-        c. All elements with bit-i, i+1 == 10 are grouped next. Original order between them is retained
-        d. All elements with bit-i, i+1 == 10 are grouped in the end. Original order between them is retained
+        b. All elements with bit-i, i+1 == 01 are grouped next. Original order between them is retained   
+        c. All elements with bit-i, i+1 == 10 are grouped next. Original order between them is retained   
+        d. All elements with bit-i, i+1 == 10 are grouped in the end. Original order between them is retained   
         
         
         
