@@ -21,6 +21,11 @@
   4. Bozidar, Darko & Dobravec, Tomaž. (2015). Comparison of parallel sorting algorithms. (https://www.researchgate.net/publication/283761857_Comparison_of_parallel_sorting_algorithms)
         
 
+### Step and Work Complexity:
+       Step Complexity : O(1)
+       Work Complexity : O(n)
+
+
 
 # IMPORTANT NOTE:
   #### * Please refer "DESCRIPTION-4-WAY-RADIX-SORT.pdf" document for DETAILED EXPLANATION of the Project
