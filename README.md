@@ -1,9 +1,6 @@
 # RadixSort-4-Way
-### 4-Way Radix-Sort On CUDA Parallel Program
-
 
 ### CUDA Implementation of 4-Way Radix Sort for integers
-
 
 ### Core Algorithm: Array arr[] of size n:
 #### Repeat for i = 0, 2, 4, ...., 30 :
