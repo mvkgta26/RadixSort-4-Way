@@ -1,6 +1,7 @@
 # RadixSort-4-Way
 
 ### CUDA Implementation of 4-Way Radix Sort for integers
+#### MAIN: "kernel.cu"
 
 ### Core Algorithm: Array arr[] of size n:
 #### Repeat for i = 0, 2, 4, ...., 30 :
@@ -29,5 +30,4 @@
 
 # IMPORTANT NOTE:
   #### * Please refer "DESCRIPTION-4-WAY-RADIX-SORT.pdf" document for DETAILED EXPLANATION of the Project
-  #### * "kernel.cu" is the MAIN SOURCE CODE FILE
   #### * Open "RadixSort.sln" to open the entire project
